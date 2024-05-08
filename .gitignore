@@ -1,0 +1,4 @@
+ubuntu-bionic-18.04-cloudimg-console.log
+*.pyc
+profiles_api/models/__pycache__/__init__.cpython-36.pyc
+profiles_api/models/__pycache__/user.cpython-36.pyc

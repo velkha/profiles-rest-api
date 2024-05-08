@@ -1,3 +1,5 @@
+vagrant up
+vagrant ssh
 # Generate enviroment server
 python -m venv ~/env
 
@@ -18,3 +20,6 @@ python manage.py startapp profiles_api
 
 # Start server
 python manage.py runserver 0.0.0.0:8000
+
+# Generate migrations
+python manage.py makemigrations app_name
