@@ -23,3 +23,6 @@ python manage.py runserver 0.0.0.0:8000
 
 # Generate migrations
 python manage.py makemigrations app_name
+
+# Migrate
+python manage.py migrate
