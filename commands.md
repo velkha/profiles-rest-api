@@ -19,6 +19,7 @@ django-admin.py startproject profiles_project .
 python manage.py startapp profiles_api
 
 # Start server
+cd /vagrant
 python manage.py runserver 0.0.0.0:8000
 
 # Generate migrations
@@ -26,3 +27,7 @@ python manage.py makemigrations app_name
 
 # Migrate
 python manage.py migrate
+
+# Create default admin
+Email: Admin@django.com
+Password: LocalAdmin2468++
