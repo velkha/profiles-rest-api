@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "5b9581d6-b4ab-417f-9994-bb5980fc0fb5",
+		"name": "Django",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34425170"
+	},
+	"item": [
+		{
+			"name": "custom_view",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/custom-view/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"custom-view",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "custom_view_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"DIEGO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/custom-view/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"custom-view",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
